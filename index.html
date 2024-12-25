@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random color generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="rcg-container">
+      <div class="hex-container">
+        <h1 class="text">#ffffff</h1>
+        <button class="hex-btn">hex generator</button>
+      </div>
+      <div class="rgb-container">
+        <h1 class="text1">rgb(#,#,#)</h1>
+        <div class="red">
+          <label for="red">Red color</label>
+          <input type="range" max="255" min="0" id="red" name="red" />
+        </div>
+        <div class="blue">
+          <label for="blue">blue color</label>
+          <input type="range" max="255" min="0" id="blue" name="blue" />
+        </div>
+        <div class="yellow">
+          <label for="yellow">yellow color</label>
+          <input type="range" max="255" min="0" id="yellow" name="yellow " />
+        </div>
+        <button class="rgb-btn">RGB color generator</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
